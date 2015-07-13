@@ -1,0 +1,65 @@
+html{
+	font-size: 36px;
+	color: white;
+	background-color: black;
+	font-family: Helvetica, Arial, sans-serif;
+}
+body{
+	width: 80%;
+	max-width: 960px;
+	margin: 1em auto;
+}
+a{
+	color: #FF5322;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+
+/* Estilo de la barra de navegación */
+
+.ble li{
+	list-style-type: none;
+	display: inline-block;
+	line-height: 2.33em;
+}
+
+.ble li a{
+	text-decoration: none;
+	padding: 1ex 1.3ex;
+	background-color: #953115;
+	border-radius: .7ex;
+	white-space: nowrap;
+}
+
+
+nav.footer-nav li a{
+	font-size: 18px;
+	background-color: black;
+}
+
+.ble li a:hover{
+	color: black;
+	background-color: #E74C20;
+}
+
+form input, 
+form textarea,
+form select{
+	font-size: 36px;
+}
+
+/* clase especial: posicionamiento */
+
+.especial{
+	position: fixed;
+	left: 0;
+	top: 0;
+	float: left;
+	width: 300px;
+	background-color: beige;
+	color: black;
+	padding: 1ex;
+	margin-right: 1ex;
+}
