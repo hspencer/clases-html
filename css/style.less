@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,900,700,900italic,700italic,400italic,300italic);
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300,300italic,400,400italic,700,700italic,800,800italic);
+
+@sans: "Merriweather Sans", sans-serif;
+@serif: "Merriweather", serif;
+
+@cuerpo: 36px;
+@ancho: 960px;
+@ancho-max: 80%;
+
+@color-fondo: #FBF9F9;
+@color-primario: rgb(220, 76, 24);
+@color-secundario: spin(@color-primario, 30);
+@color-terciario: spin(@color-secundario, 30);
+
+body{
+	background-color: @color-fondo;
+	width: @ancho;
+	max-width: @ancho-max;
+	font-family: @sans;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: @serif;
+	color: @color-primario;
+}

@@ -1,2 +1,26 @@
-# cca
-Maqueta HTML del sitio de la CCA por @hspencer
+# Apuntes
+
+## Clase 1
+
+- Entorno de desarrollo: browser -> recomiendo Firefox
+- Editor (Mac: Sublime, Textmate, Coda; PC: Sublime, ..., ?)
+- Localhost -> directorio (Apache, MySql, Php)
+- Estructura de carpetas:
+-- img
+-- css
+-- js
+-- etc...
+-- index.html
+
+Ref:
+- http://www.csszengarden.com
+- http://html-ipsum.com/
+- http://lorempixel.com/
+- https://www.browserstack.com/screenshots
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+## Clase 2
+
+- Less: Pre-procesador de CSS
+-- http://lesscss.org/
+- Frameworks para diseño responsive
