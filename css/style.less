@@ -8,12 +8,17 @@
 @ancho: 960px;
 @ancho-max: 80%;
 
+@negro: #1D1C1A;
 @color-fondo: #FBF9F9;
 @color-primario: rgb(220, 76, 24);
 @color-secundario: spin(@color-primario, 30);
-@color-terciario: spin(@color-secundario, 30);
+@color-terciario: spin(@color-primario, 180);
+
+@padding-grande: .2ex .9ex;
+@padding-chico: .1ex .5ex;
 
 body{
+	color: @negro;
 	background-color: @color-fondo;
 	width: @ancho;
 	max-width: @ancho-max;
@@ -24,4 +29,51 @@ body{
 h1, h2, h3, h4, h5, h6{
 	font-family: @serif;
 	color: @color-primario;
+}
+
+p{
+	font-weight: 300;
+	line-height: 155%;
+	strong{
+		font-weight: 700;
+	}
+}
+
+nav.main-nav{
+	
+	li{
+		margin: 1em .5em 0 0;
+		&:first-child{
+			a{
+				/* esto es para manipular el 'a' del primer 'li' */
+			}
+		}
+		display: inline-block;
+		list-style-type: none;
+		a{
+			font-family: @sans;
+			color: darken(@color-primario, 10);
+			text-decoration: none;
+			font-weight: 800;
+			display: inline-block;
+			&:hover{
+				border-bottom: 3px solid darken(@color-primario, 10);
+				margin-bottom: -3px;
+			}
+		}
+	}
+}
+
+img{
+	width: 100%;
+	box-shadow: 2px 3px 3px fade(@negro, 10);
+	.enmarcada;
+}
+
+.enmarcado,
+.enmarcada{
+	border: 1px solid fade(@negro, 20);
+	padding: 10px 10px 50px 10px;
+	border-radius: 5px;
+	background-color: #FFF; 
 }
