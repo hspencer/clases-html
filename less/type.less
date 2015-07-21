@@ -1,0 +1,58 @@
+/*
+*
+* bo - type
+*
+*/
+
+
+body{
+	font-size: 16px;
+	font-family: @font-serif;
+}
+
+header{
+	display: block;
+	.cf;
+}
+
+a{
+	color: @rojo;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: @font-sans;
+}
+
+
+.contenedor{
+	width: 90%;
+	max-width: 740px;
+	margin: 0 auto;
+}
+
+aside{
+	float: left;
+	width: 30%;
+	font-size: 80%;
+}
+
+.content{
+	float: left;
+	width: 70%;
+}
+
+footer{
+	clear: both;
+	font-size: 80%;
+	.contenedor;
+	ul{
+		li{
+			list-style-type: none;
+			display: inline-block;
+			a{
+				padding: @padding;
+			}
+		}
+	}
+}
